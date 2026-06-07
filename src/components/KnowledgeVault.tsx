@@ -729,14 +729,10 @@ export default function KnowledgeVault({ userExam, onNavigateToTutor }: Knowledg
                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                       <button 
                         onClick={async () => {
-                          if (!aiAnalysisFile.aiInsights?.summary) {
-                             if (aiAnalysisFile.base64Data) {
-                                await analyzeFile(aiAnalysisFile.id, aiAnalysisFile.name, aiAnalysisFile.type, aiAnalysisFile.base64Data);
-                             } else {
-                                onNavigateToTutor(`Aris, I have a document named "${aiAnalysisFile.name}". It seems to be missing an AI summary. Please analyze it, summarize it, extract the key formulas, and explain any complex concepts in a simplified exam-focused manner.`, aiAnalysisFile);
-                             }
+                          if (aiAnalysisFile.base64Data) {
+                             await analyzeFile(aiAnalysisFile.id, aiAnalysisFile.name, aiAnalysisFile.type, aiAnalysisFile.base64Data);
                           } else {
-                             onNavigateToTutor(`Aris, I have a document named "${aiAnalysisFile.name}". Please summarize it, extract the key formulas, and explain any complex concepts in a simplified exam-focused manner.`, aiAnalysisFile);
+                             alert("Analysis not possible: File data unavailable.");
                           }
                         }}
                         className="p-4 bg-white/5 border border-white/10 rounded-2xl flex items-center gap-4 hover:bg-indigo-600/10 hover:border-indigo-500/30 transition-all text-left"
