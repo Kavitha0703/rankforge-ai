@@ -4,6 +4,12 @@ AI-Powered Competitive Exam Preparation Ecosystem for MCA Aspirants
 
 RankForge AI is an intelligent learning platform designed to help students prepare for NIMCET, CUET PG MCA, GATE, TANCET, VITMEE, and other competitive examinations through adaptive learning, AI mentorship, mock test analytics, knowledge management, and admission guidance.
 
+## 🌐 Live Demo
+
+**Website:** [https://ais-pre-chpf45o6kihgqwbddqgaqg-695032611408.asia-southeast1.run.app](https://ais-pre-chpf45o6kihgqwbddqgaqg-695032611408.asia-southeast1.run.app)
+
+Try RankForge AI directly in your browser without installation.
+
 ## 📸 Preview
 
 *Placeholder for system screenshots - Dashboard, AI Mentor, Knowledge Vault.*
@@ -92,6 +98,10 @@ npm run dev
 ## 📄 License
 
 MIT License
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feature requests are welcome.
 
 ## 🎓 Educational Impact
 
