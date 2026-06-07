@@ -1,6 +1,6 @@
 import React, { Component, useState, useEffect, useCallback, Suspense, lazy, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { UserProgress } from './types';
+import { UserProgress, VaultFile } from './types';
 import { 
   Sparkles, 
   Trophy, 
