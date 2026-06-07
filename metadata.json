@@ -1,0 +1,6 @@
+{
+  "name": "RankForge AI",
+  "description": "AI-powered entrance exam mentor for CUET PG, NIMCET, GATE, CAT, TANCET, Placements, and university admissions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
