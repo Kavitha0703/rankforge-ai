@@ -6,7 +6,7 @@ RankForge AI is an intelligent learning platform designed to help students prepa
 
 ## 🌐 Live Demo
 
-**Website:** [https://ais-pre-chpf45o6kihgqwbddqgaqg-695032611408.asia-southeast1.run.app](https://ais-pre-chpf45o6kihgqwbddqgaqg-695032611408.asia-southeast1.run.app)
+**Website:** [https://rankforge-ai.vercel.app/](https://rankforge-ai.vercel.app/)
 
 Try RankForge AI directly in your browser without installation.
 
